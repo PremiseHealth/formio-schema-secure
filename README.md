@@ -41,7 +41,7 @@ Override form.io credentials and API Endpoint
 ```
 
 ##### Exclude paths
-To exclude certain API Enpoints add the endpoint path on a newline in a file named `excludepaths`
+To exclude certain API Enpoints add the endpoint path on a newline in a file in the project root named `excludepaths`
 ```sh
 admin
 user
@@ -50,7 +50,7 @@ user/register
 ```
 
 ##### Roles to apply to all API Endpoints
-Add the role id's on a newline that you want applied to your API endpoints in a file named `roles`
+Add the role id's on a newline that you want applied to your API endpoints in a file in the project root named `roles`
 ```sh
 3425312e9c27b1670000346a
 358d312e9c27c1670000206b
