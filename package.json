@@ -1,0 +1,21 @@
+{
+  "name": "formio-schema-secure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "schema-secure": "bin/schema-secure.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rocky Assad",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.4.3",
+    "bossy": "^3.0.1",
+    "superagent": "2.2.0"
+  }
+}
